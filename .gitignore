@@ -1,6 +1,5 @@
-·node_modules/
-·.env
-·dist/
-·logs/
-doc/
-.DS_Store
+node_modules/
+dist/
+build/
+.env
+
