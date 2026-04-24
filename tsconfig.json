@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Standard de compilation */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    /* Chemins et Dossiers */
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "src/*"]
+    },
+
+    /* Sécurité et Typage */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false, /* Important pour Sequelize (le fameux '!') */
+
+    /* Interopérabilité */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true, /* Utile si tu ajoutes des décorateurs plus tard */
+    "experimentalDecorators": true,
+
+    /* Optimisation */
+    "removeComments": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
+}
