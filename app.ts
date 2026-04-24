@@ -9,8 +9,8 @@ app.use(express.urlencoded({ extended: true }));
 // Route de bienvenue / test
 app.get('/', (req: Request, res: Response) => {
   res.json({
-    message: "Bienvenue sur l'API Zenith Tasks Pro",
-    status: "Online"
+    message: "Bienvenue sur l'API Taskly",
+    status: "en ligne"
   });
 });
 
